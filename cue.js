@@ -197,6 +197,7 @@ if (Meteor.isServer) {
                 sort: {createdAt:1},
                 new: true
             });
+            task = task.value;
 
             if (!task) {
 
